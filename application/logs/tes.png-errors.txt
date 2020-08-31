@@ -1,0 +1,653 @@
+2019-11-30 09:12:09: 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  strlen() expects parameter 1 to be string, array given</p>
+<p>Filename: qrcode/qrsplit.php</p>
+<p>Line Number: 250</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrsplit.php<br />
+			Line: 250<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrsplit.php<br />
+			Line: 309<br />
+			Function: splitString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 274<br />
+			Function: splitStringToQRinput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\Ciqrcode.php<br />
+			Line: 92<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\controllers\Coinpayments.php<br />
+			Line: 62<br />
+			Function: generate			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Invalid argument supplied for foreach()</p>
+<p>Filename: qrcode/qrinput.php</p>
+<p>Line Number: 522</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 522<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 536<br />
+			Function: estimateBitStreamSize			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 609<br />
+			Function: estimateVersion			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 682<br />
+			Function: convertData			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 702<br />
+			Function: mergeBitStream			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 719<br />
+			Function: getBitStream			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 63<br />
+			Function: getByteStream			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 172<br />
+			Function: __construct			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\Ciqrcode.php<br />
+			Line: 92<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\controllers\Coinpayments.php<br />
+			Line: 62<br />
+			Function: generate			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Invalid argument supplied for foreach()</p>
+<p>Filename: qrcode/qrinput.php</p>
+<p>Line Number: 522</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 522<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 536<br />
+			Function: estimateBitStreamSize			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 609<br />
+			Function: estimateVersion			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 682<br />
+			Function: convertData			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 702<br />
+			Function: mergeBitStream			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 719<br />
+			Function: getBitStream			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 63<br />
+			Function: getByteStream			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 172<br />
+			Function: __construct			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\Ciqrcode.php<br />
+			Line: 92<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\controllers\Coinpayments.php<br />
+			Line: 62<br />
+			Function: generate			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Invalid argument supplied for foreach()</p>
+<p>Filename: qrcode/qrinput.php</p>
+<p>Line Number: 594</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 594<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 615<br />
+			Function: createBitStream			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 682<br />
+			Function: convertData			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 702<br />
+			Function: mergeBitStream			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 719<br />
+			Function: getBitStream			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 63<br />
+			Function: getByteStream			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 172<br />
+			Function: __construct			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\Ciqrcode.php<br />
+			Line: 92<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\controllers\Coinpayments.php<br />
+			Line: 62<br />
+			Function: generate			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Invalid argument supplied for foreach()</p>
+<p>Filename: qrcode/qrinput.php</p>
+<p>Line Number: 688</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 688<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 702<br />
+			Function: mergeBitStream			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrinput.php<br />
+			Line: 719<br />
+			Function: getBitStream			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 63<br />
+			Function: getByteStream			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 172<br />
+			Function: __construct			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\qrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\libraries\Ciqrcode\Ciqrcode.php<br />
+			Line: 92<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\application\controllers\Coinpayments.php<br />
+			Line: 62<br />
+			Function: generate			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\codecanyon\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
